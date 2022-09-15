@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image: url(https://previews.123rf.com/images/nadya76/nadya761710/nadya76171000167/88138928-fondo-hermoso-blanco-y-rosa-floral-fondos-de-pantalla-de-flores-rosas-claras-composici%C3%B3n-de-flores-n.jpg);
+    background-size: cover;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: purple;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-width: 1px 1px 50px 1px;
+    
+}
+.menu-horizontal >li >a{
+    display: block;
+    padding: 15px 20px;
+    color: wheat;
+    text-decoration: none;
+
+}
+
+.menu-horizontal >li:hover{
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: purple;
+    border-radius: 20px;
+
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+
+}
+.menu-vertical :hover{
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+.menu-vertical li a{
+    display: block;
+    color: wheat;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+
